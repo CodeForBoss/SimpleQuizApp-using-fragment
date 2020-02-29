@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8E0A1"
+    tools:context=".Question1Fragment">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:textSize="20dp"
+      android:text="@string/question1"
+      android:layout_marginTop="30dp"
+      android:gravity="center"
+      android:textColor="@color/black"
+      ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:id="@+id/radiogroup"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALU"
+                android:textColor="@color/black"
+                android:id="@+id/answer1RB"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memory"
+
+                android:id="@+id/answer2RB"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU"
+                android:textColor="@color/black"
+                android:id="@+id/answer3RB"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control unit"
+                android:textColor="@color/black"
+                android:id="@+id/answer4RB"
+                ></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+</FrameLayout>

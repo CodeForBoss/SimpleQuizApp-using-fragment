@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question1">The brain of any computer system is?</string>
+    <string name="question2">The binary system uses powers of?</string>
+    <string name="question3">Which of the following is an input device?</string>
+    <string name="question4">Who is the Chairman of Daffodil International University?</string>
+    <string name="question5">What is our national fruit?</string>
+</resources>

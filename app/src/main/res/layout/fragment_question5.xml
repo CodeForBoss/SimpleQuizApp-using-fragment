@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9B27B"
+    tools:context=".Question5Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="@string/question5"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+
+            android:id="@+id/radiogroup4"
+            >
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mango"
+                android:textColor="@color/black"
+                android:id="@+id/answer1RB5"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textColor="@color/black"
+                android:id="@+id/answer2RB5"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banana"
+                android:textColor="@color/black"
+                android:id="@+id/answer3RB5"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jackfruit"
+                android:textColor="@color/black"
+                android:id="@+id/answer4RB5"
+                ></RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

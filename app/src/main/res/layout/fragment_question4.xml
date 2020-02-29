@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9AFDF"
+    tools:context=".Question4Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="@string/question4"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:id="@+id/radiogroup3"
+            >
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md.Sabur Rahman"
+                android:textColor="@color/black"
+                android:id="@+id/answer1RB4"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md.Sabur khan"
+                android:textColor="@color/black"
+                android:id="@+id/answer2RB4"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md.Sabur Chowdhury"
+                android:textColor="@color/black"
+                android:id="@+id/answer3RB4"
+                ></RadioButton>
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md.Sabur Uddin"
+                android:textColor="@color/black"
+                android:id="@+id/answer4RB4"
+                ></RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>
