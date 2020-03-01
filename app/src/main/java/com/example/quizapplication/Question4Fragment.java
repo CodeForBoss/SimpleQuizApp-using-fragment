@@ -15,7 +15,7 @@ import android.widget.RadioGroup;
 public class Question4Fragment extends Fragment {
     RadioButton r1,r2,r3,r4;
     RadioGroup rb;
-    String answer = "Md.Sabur khan";
+    String answer = "Sundar Pichai";
     public static int t4;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

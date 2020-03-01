@@ -35,7 +35,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Md.Sabur Rahman"
+                android:text="Sundar Pichai"
                 android:textColor="@color/black"
                 android:id="@+id/answer1RB4"
                 ></RadioButton>
@@ -43,7 +43,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Md.Sabur khan"
+                android:text="Larry Page"
                 android:textColor="@color/black"
                 android:id="@+id/answer2RB4"
                 ></RadioButton>
@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Md.Sabur Chowdhury"
+                android:text="Sergey Brin"
                 android:textColor="@color/black"
                 android:id="@+id/answer3RB4"
                 ></RadioButton>
@@ -59,7 +59,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Md.Sabur Uddin"
+                android:text="Satta Nadela"
                 android:textColor="@color/black"
                 android:id="@+id/answer4RB4"
                 ></RadioButton>
