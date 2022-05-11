@@ -1,17 +1,15 @@
 package com.example.quizapplication;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class QuestionStartActivity extends AppCompatActivity implements View.OnClickListener{
     Button next;
@@ -57,14 +55,11 @@ public class QuestionStartActivity extends AppCompatActivity implements View.OnC
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Your Score is : ");
             builder.setMessage(score+"");
-            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    finish();
-                    Intent intent = new Intent(QuestionStartActivity.this,MainActivity.class);
-                    startActivity(intent);
-                    score = 0;
-                }
+            builder.setPositiveButton("Ok", (dialog, which) -> {
+                finish();
+                Intent intent = new Intent(QuestionStartActivity.this,MainActivity.class);
+                startActivity(intent);
+                score = 0;
             });
             AlertDialog alertDialog = builder.create();
             alertDialog.show();

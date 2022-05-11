@@ -38,7 +38,7 @@
                 android:text="2"
                 android:textColor="@color/black"
                 android:id="@+id/answer1RB2"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
                 android:text="10"
                 android:textColor="@color/black"
                 android:id="@+id/answer2RB2"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
                 android:text="8"
                 android:textColor="@color/black"
                 android:id="@+id/answer3RB2"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                 android:text="16"
                 android:textColor="@color/black"
                 android:id="@+id/answer4RB2"
-                ></RadioButton>
+                />
 
         </RadioGroup>
 

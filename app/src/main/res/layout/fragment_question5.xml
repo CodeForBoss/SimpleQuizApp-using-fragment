@@ -39,7 +39,7 @@
                 android:text="Mango"
                 android:textColor="@color/black"
                 android:id="@+id/answer1RB5"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                 android:text="Apple"
                 android:textColor="@color/black"
                 android:id="@+id/answer2RB5"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
                 android:text="Banana"
                 android:textColor="@color/black"
                 android:id="@+id/answer3RB5"
-                ></RadioButton>
+                />
             <RadioButton
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -63,8 +63,7 @@
                 android:text="Jackfruit"
                 android:textColor="@color/black"
                 android:id="@+id/answer4RB5"
-                ></RadioButton>
-
+                />
         </RadioGroup>
 
     </LinearLayout>
